@@ -11,7 +11,7 @@ const Notification = ({ item, removeItem, index }) => {
 					setShow({ show: false });
 					setTimeout(() => {
 						removeItem(item);
-					}, 1000);
+					}, 400);
 				}
 			}, item.expires);
 
@@ -36,8 +36,8 @@ const Notification = ({ item, removeItem, index }) => {
 					)}
 				</div>
 			</div>
-			<div className="notification-expiration" onClick={() => removeItem(item)}>
-				{item.expires}
+			<div className="notification-expiration">
+        {item.expires && <span>{item.expires / 1000} s.</span>} 
 			</div>
 		</div>
 	);
