@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+  box-sizing:border-box;
+}
+
+.App-header {
+  background-color: #282c34;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 1rem;
+  h1{
+    margin:0;
+  }
+}
+
+.conatainer{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  margin:5% 0;
+  padding: 0 25%;
+}
+
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+
+p{
+  margin: 5px 0;
+}

@@ -1,0 +1,35 @@
+.notifications-pannel{
+  background-color:rgb(154, 154, 154);
+  width: 100%;
+  border-radius: 10px;
+  
+
+  &_header{
+    background-color: #282c34;
+    border-radius: 10px;
+    padding: 1rem;
+    position: relative;
+    cursor: pointer;
+  }
+
+  &-total{
+    position: absolute;
+    top:50%;
+    right: 1.5rem;
+    transform: translate(0, -50%);
+    color:white;
+    font-size: 2rem;
+  }
+
+  &_body{
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height .5s ease-in-out;
+    
+  }
+
+  .open{
+    max-height: 1000px;
+    overflow: hidden;
+  }
+}
