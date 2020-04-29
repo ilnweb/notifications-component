@@ -72,7 +72,7 @@ class App extends React.Component {
 	};
 
 	render() {
-		const { isOpen, notifications, show } = this.state;
+		const { isOpen, notifications } = this.state;
 		return (
 			<div className="App">
 				<header className="App-header">
