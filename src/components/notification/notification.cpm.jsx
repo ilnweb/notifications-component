@@ -2,7 +2,9 @@ import React, { useEffect, useState } from 'react';
 import './notification.scss';
 
 const Notification = ({ item, removeItem, index }) => {
-	const [ show, setShow ] = useState({ show: false });
+  //use state hook to save value the show hide of the notification
+  const [show, setShow] = useState({ show: false });
+  //use effect hook to trigger the set timeout of the notification
 	useEffect(
 		() => {
 			const deley = index * 100;
@@ -20,7 +22,8 @@ const Notification = ({ item, removeItem, index }) => {
 			}, deley);
 		},
 		[ item, removeItem, index ]
-	);
+  );
+   //notification ajusted to all 3 types of notifications
 	return (
 		<div className={`notification ${show.show ? 'show' : ''}`}>
 			<div className="notification-left_content">
