@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/notifications-component/static/css/main.4b635623.chunk.css",
-    "main.js": "/notifications-component/static/js/main.d3533e49.chunk.js",
-    "main.js.map": "/notifications-component/static/js/main.d3533e49.chunk.js.map",
+    "main.js": "/notifications-component/static/js/main.a6f1ded0.chunk.js",
+    "main.js.map": "/notifications-component/static/js/main.a6f1ded0.chunk.js.map",
     "runtime-main.js": "/notifications-component/static/js/runtime-main.9ffa8527.js",
     "runtime-main.js.map": "/notifications-component/static/js/runtime-main.9ffa8527.js.map",
     "static/js/2.6615bc27.chunk.js": "/notifications-component/static/js/2.6615bc27.chunk.js",
     "static/js/2.6615bc27.chunk.js.map": "/notifications-component/static/js/2.6615bc27.chunk.js.map",
     "index.html": "/notifications-component/index.html",
-    "precache-manifest.b2382e6da2208d8aa40801c37310f236.js": "/notifications-component/precache-manifest.b2382e6da2208d8aa40801c37310f236.js",
+    "precache-manifest.3fb5be697d6f770f804214e93ff9bf31.js": "/notifications-component/precache-manifest.3fb5be697d6f770f804214e93ff9bf31.js",
     "service-worker.js": "/notifications-component/service-worker.js",
     "static/css/main.4b635623.chunk.css.map": "/notifications-component/static/css/main.4b635623.chunk.css.map",
     "static/js/2.6615bc27.chunk.js.LICENSE.txt": "/notifications-component/static/js/2.6615bc27.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.9ffa8527.js",
     "static/js/2.6615bc27.chunk.js",
     "static/css/main.4b635623.chunk.css",
-    "static/js/main.d3533e49.chunk.js"
+    "static/js/main.a6f1ded0.chunk.js"
   ]
 }
