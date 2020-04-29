@@ -1,1 +1,1 @@
-<h1></h1>
+<h1>Notification Component</h1>
